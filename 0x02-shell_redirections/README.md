@@ -1,1 +1,1 @@
-# Hello world this is alX SE
+# Hello world this is alX SE course
