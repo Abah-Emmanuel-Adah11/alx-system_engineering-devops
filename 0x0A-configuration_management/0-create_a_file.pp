@@ -1,8 +1,8 @@
-# A code that creates a file in /tmp
+#creates a file in /tmp
 file { '/tmp/school':
   ensure  => file,
   content => 'I love Puppet',
-  mode	  => '07744',
+  mode	  => '0744',
   owner	  => 'www-data',
   group   => 'www-data',
 }
