@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # A script that enables nginx through port 80
 
-sed -i '0,/listen.*/s/listen.*/listen 80 default_server;/' /etc/nginx/sites-enabled/default
-pkill -9 nginx
-service nginx start
+# removes the default Nginx configuration file
+rm /etc/nginx/sites-enabled/default
+# configure Ngnix to ;isten on port 80 for all active IPv4 IPs
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+# restart ngnix
+service nginx restart
