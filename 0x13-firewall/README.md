@@ -1,7 +1,6 @@
-##0x13. Firewall. ALX SE PROJECT
+## 0x13. Firewall. ALX SE PROJECT
 
-#TASK 0
-
+# TASK 0
 Let’s install the ufw firewall and setup a few rules on web-01.
 
 Requirements:
@@ -13,8 +12,8 @@ ii. Configure ufw so that it blocks all incoming traffic, except the following T
 * 80 (HTTP)
 iii. Share the ufw commands that you used in your answer file
 
-#TASK 1
 
+# TASK 1
 Firewalls can not only filter requests, they can also forward them.
 
 Requirements:
