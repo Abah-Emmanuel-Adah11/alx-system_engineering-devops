@@ -33,6 +33,3 @@
 
 # Link to Image (For advanced Task)
 https://images.app.goo.gl/8SSnfSMgVAZWSoru9
-
-![0x19-postmortem](https://images.app.goo.gl/8SSnfSMgVAZWSoru9)
-
