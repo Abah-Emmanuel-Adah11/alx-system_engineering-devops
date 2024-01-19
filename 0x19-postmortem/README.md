@@ -31,5 +31,8 @@
 * Change permissions on /var/www/html/wp-settings.php to read-only for the team.
 * Review all setting files for similar typos.
 
-# Image (For advanced Task)
+# Link to Image (For advanced Task)
 https://images.app.goo.gl/8SSnfSMgVAZWSoru9
+
+![0x19-postmortem](https://images.app.goo.gl/8SSnfSMgVAZWSoru9)
+
